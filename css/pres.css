@@ -8,7 +8,8 @@ body {
 }
 
 #container {
-	background: url(../img/blue.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/aurora.jpg) 50% 0 no-repeat fixed;
+	height: 100%;
 	position: relative;
 	width: 100%;
 }
@@ -33,10 +34,16 @@ body {
 		color: white;
 		font-weight: bold;
 		padding: 5px;
+		-webkit-transition: all 1s ease;
+    	-moz-transition: all 1s ease;
+       	-o-transition: all 1s ease;
+      	-ms-transition: all 1s ease;
+        transition: all 1s ease;
 		width: 75px;
 	}
 	button:hover {
-		background-color: #555670;
+		background-color: #8F8FB3;
+		border-radius: 5px;
 	}
 
 .slide {
